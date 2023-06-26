@@ -1,2 +1,7 @@
 # Decision-Tree-Classification
 Decision tree classification is a machine learning technique that uses a decision tree to classify data into different classes or categories.
+The decision tree classification algorithm builds a tree-like model from the training data, where each internal node represents a feature or attribute, each branch represents a decision rule based on the feature values, and each leaf node represents the class label or outcome. The goal is to create a tree that partitions the data into homogeneous subsets, where instances belonging to the same class are grouped together.
+The decision tree continues to split the data until a stopping criterion is met, such as reaching a maximum tree depth, achieving a minimum number of instances in each leaf node, or when no further improvement in purity can be achieved. At the end, the resulting tree provides a set of decision rules that can be used to classify new, unseen instances.
+Decision tree classification offers several advantages- Interpretability, Handling categorical and numerical data, Capturing non-linear relationships and interactions,Handling missing values
+However, decision tree classification also has some limitations - Overfitting, Lack of robustness, Biased towards features with more levels
+Decision tree classification is widely used in various fields, including healthcare, finance, customer segmentation, and fraud detection. Its simplicity, interpretability, and ability to handle complex relationships make it a valuable tool for solving classification problems.
